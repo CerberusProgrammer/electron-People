@@ -1,0 +1,11 @@
+{
+  "name": "electron-people",
+  "version": "1.0.0",
+  "description": "Agenda de Contactos usando electron.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Flores Salazar",
+  "license": "ISC"
+}
