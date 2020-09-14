@@ -2,7 +2,7 @@
     "name": "electron-people",
     "version": "1.0.0",
     "description": "Agenda de Contactos usando electron.js",
-    "main": "controller.js",
+    "main": "app/controller.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "electron ."
@@ -10,6 +10,10 @@
     "author": "Omar Flores Salazar",
     "license": "ISC",
     "devDependencies": {
-        "electron": "10.1.1"
+        "electron": "10.1.1",
+        "electron-builder": "^22.8.0"
+    },
+    "dependencies": {
+        "electron-packager": "^15.1.0"
     }
 }

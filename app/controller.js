@@ -10,8 +10,8 @@ function createwindow() {
         }
     })
     mainWindow.setMenuBarVisibility(false)
-    mainWindow.setIcon("icon-people.jpg")
-    mainWindow.loadFile('model.html')
+    mainWindow.setIcon("app/img/icon-people.jpg")
+    mainWindow.loadFile('app/model.html')
 }
 
 app.whenReady().then(() => {

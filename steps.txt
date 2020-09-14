@@ -16,3 +16,7 @@ view.css
 
 5)
 npm start
+
+build)
+npm install -g electron-packager --save-dev
+electron-packager appdirectory appName --platform=win32 --Arch=x64 --electron-version=1.4.3
