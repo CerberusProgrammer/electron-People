@@ -4,13 +4,14 @@ const path = require('path')
 function createwindow() {
     const mainWindow = new BrowserWindow({
         width: 1280,
-        height: 720,
+        height: 928,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
     })
-
-    mainWindow.loadFile('index.html')
+    mainWindow.setMenuBarVisibility(false)
+    mainWindow.setIcon("icon-people.jpg")
+    mainWindow.loadFile('model.html')
 }
 
 app.whenReady().then(() => {

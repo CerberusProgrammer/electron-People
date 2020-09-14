@@ -1,0 +1,35 @@
+.lt-grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1px 1px;
+    grid-template-areas: "lt-title-main lt-title-main lt-title-main lt-title-main lt-title-main lt-title-main lt-title-main lt-title-main lt-title-main" "lt-sidebar lt-sidebar lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content" "lt-sidebar lt-sidebar lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content lt-title-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content" "lt-sidebar lt-sidebar lt-content lt-content lt-content lt-content lt-content lt-content lt-content";
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D9DCD6;
+}
+
+.lt-title-main {
+    grid-area: lt-title-main;
+    font-size: 72px;
+    text-align: center;
+    background-color: #16425B;
+}
+
+.lt-sidebar {
+    grid-area: lt-sidebar;
+    background-color: #2F6690;
+}
+
+.lt-title-content {
+    grid-area: lt-title-content;
+    background-color: #3A7CA5;
+}
+
+.lt-content {
+    grid-area: lt-content;
+    text-align: center;
+    background-color: #81C3D7;
+}
